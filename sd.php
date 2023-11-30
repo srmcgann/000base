@@ -12,7 +12,7 @@
     $modString2 = "find ./ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/$oldDBUSER/$newDBUSER/g'";
     $modString3 = "find ./ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/$oldDB/$newDB/g'";
     @rmdir("converted");
-    @unlink("new.zip");
+    @unlink("*.zip");
     mkdir("converted");
     exec('cp * converted -r &> /dev/null');
     exec('cp .* converted &> /dev/null');
