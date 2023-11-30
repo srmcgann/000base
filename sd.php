@@ -14,7 +14,7 @@
     echo "\n\nrecursing & compressing...... one moment...\n\n";
     exec($modString);
     exec("zip new.zip * -r");
-    exec("mv new.zip ..$newDomain.zip");
+    exec("mv new.zip ../$newDomain.zip");
     chdir("..");
     exec("rm -rf converted");
     echo "\n\nconversion complete. updated contents compressed into \"$newDomain.zip\"\n\n";
