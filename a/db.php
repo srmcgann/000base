@@ -31,6 +31,7 @@
   $db       = "id21284549_videodemos2";
   $port     = '3306';
   $baseURL  = "http://efx.cantelope.org/a";
+  $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
   
 
   $maxResultsPerPage = 4;
