@@ -21,7 +21,7 @@ error_reporting(E_ALL);
           imagejpeg($resized, './thumbs/' . $fileName);
           exec('chmod 775 ./thumbs/' . $fileName);
         }
-        return  (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "http:" : "http:") . "//{$_SERVER['HTTP_HOST']}" . '/thumbs/' . $fileName;
+        return  (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https:" : "https:") . "//{$_SERVER['HTTP_HOST']}" . '/thumbs/' . $fileName;
       } else {
         return '';
       }
@@ -29,11 +29,11 @@ error_reporting(E_ALL);
       if(strpos($src, 'youtube.com') === false){
         $a = explode('/', $src)[sizeof(explode('/', $src))-1];
         $a = explode('?', $a)[0];
-        return 'http://img.youtube.com/vi/' . $a . '/0.jpg';
+        return 'https://img.youtube.com/vi/' . $a . '/0.jpg';
       }
       $a = explode('?v=', $src);
       $a = explode("&", $a[sizeof($a)-1])[0];
-      return 'http://img.youtube.com/vi/' . $a . '/0.jpg';
+      return 'https://img.youtube.com/vi/' . $a . '/0.jpg';
     }
   }
 

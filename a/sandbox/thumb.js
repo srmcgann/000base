@@ -14,7 +14,7 @@ if(!id) {
 
 console.log('generating thumbnail for applet #' + id)
 
-  fetch('http://applet.codegolf.cantelope.org/demoSource.php?id=' + id).then(res=>res.json()).then(res=>{
+  fetch('https://applet.codegolf.cantelope.org/demoSource.php?id=' + id).then(res=>res.json()).then(res=>{
     let code = res.code
     c.width = 1920;
     c.height = 1080;

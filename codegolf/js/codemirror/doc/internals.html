@@ -42,7 +42,7 @@ version 2 was initially written. It no longer (even including the
 update at the bottom) fully represents the current implementation. I'm
 leaving it here as a historic document. For more up-to-date
 information, look at the entries
-tagged <a href="http://marijnhaverbeke.nl/blog/#cm-internals">cm-internals</a>
+tagged <a href="https://marijnhaverbeke.nl/blog/#cm-internals">cm-internals</a>
 on my blog.</p>
 
 <p>This is a followup to
@@ -59,14 +59,14 @@ engineering, requiring no serious mind-bending whatsoever.</p>
 activity and general search-engine presence, that it has been
 integrated into about a thousand systems by now. The most prominent
 one, since a few weeks,
-being <a href="http://googlecode.blogspot.com/2011/01/make-quick-fixes-quicker-on-google.html">Google
+being <a href="https://googlecode.blogspot.com/2011/01/make-quick-fixes-quicker-on-google.html">Google
 code's project hosting</a>. It works, and it's being used widely.</p>
 
 <p>Still, I did not start replacing it because I was bored. CodeMirror
 1 was heavily reliant on <code>designMode</code>
 or <code>contentEditable</code> (depending on the browser). Neither of
 these are well specified (HTML5 tries
-to <a href="http://www.w3.org/TR/html5/editing.html#contenteditable">specify</a>
+to <a href="https://www.w3.org/TR/html5/editing.html#contenteditable">specify</a>
 their basics), and, more importantly, they tend to be one of the more
 obscure and buggy areas of browser functionality—CodeMirror, by using
 this functionality in a non-typical way, was constantly running up
@@ -118,13 +118,13 @@ to lose its appeal.</p>
 
 <p>What CodeMirror 2 does is try to sidestep most of the hairy hacks
 that came up in version 1. I owe a lot to the
-<a href="http://ace.ajax.org">ACE</a> editor for inspiration on how to
+<a href="https://ace.ajax.org">ACE</a> editor for inspiration on how to
 approach this.</p>
 
 <p>I absolutely did not want to be completely reliant on key events to
 generate my input. Every JavaScript programmer knows that key event
 information is horrible and incomplete. Some people (most awesomely
-Mihai Bazon with <a href="http://ymacs.org">Ymacs</a>) have been able
+Mihai Bazon with <a href="https://ymacs.org">Ymacs</a>) have been able
 to build more or less functioning editors by directly reading key
 events, but it takes a lot of work (the kind of never-ending, fragile
 work I described earlier), and will never be able to properly support
@@ -297,7 +297,7 @@ thought <a href="https://codemirror.net/story.html#parser">interruptable
 parsers</a> were a hugely scary and complicated thing, and I used a
 bunch of heavyweight abstractions to keep this supposed complexity
 under control: parsers
-were <a href="http://bob.pythonmac.org/archives/2005/07/06/iteration-in-javascript/">iterators</a>
+were <a href="https://bob.pythonmac.org/archives/2005/07/06/iteration-in-javascript/">iterators</a>
 that consumed input from another iterator, and used funny
 closure-resetting tricks to copy and resume themselves.</p>
 

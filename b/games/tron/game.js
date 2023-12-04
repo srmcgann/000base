@@ -764,8 +764,8 @@ function draw(){
 		ctx.strokeText("MUSIC: cantelope",20,215);
 		ctx.fillStyle="#00f";
 		ctx.strokeStyle="#fff";
-		ctx.fillText("http://cantelope.org",20,250);
-		ctx.strokeText("http://cantelope.org",20,250);
+		ctx.fillText("https://cantelope.org",20,250);
+		ctx.strokeText("https://cantelope.org",20,250);
 	}
 	if(deathScreenAlpha){
 		ctx.globalAlpha=deathScreenAlpha;

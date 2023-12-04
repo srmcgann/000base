@@ -9,7 +9,7 @@
     |''Status''|''stable''|
     |''Source''|[[GitHub|https://github.com/pmario/CodeMirror2/blob/tw-syntax/mode/tiddlywiki]]|
     |''Documentation''|https://codemirror.tiddlyspace.com/|
-    |''License''|[[MIT License|http://www.opensource.org/licenses/mit-license.php]]|
+    |''License''|[[MIT License|https://www.opensource.org/licenses/mit-license.php]]|
     |''CoreVersion''|2.5.0|
     |''Requires''|codemirror.js|
     |''Keywords''|syntax highlighting color code mirror codemirror|

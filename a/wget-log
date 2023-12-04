@@ -1,13 +1,13 @@
---2023-07-09 21:09:27--  http://www.dropbox.com/scl/fi/pl0jwy9bu7953mpg41h2d/alldb.sql?rlkey=2juysx8rd0zos3bn69hmulu8i
+--2023-07-09 21:09:27--  https://www.dropbox.com/scl/fi/pl0jwy9bu7953mpg41h2d/alldb.sql?rlkey=2juysx8rd0zos3bn69hmulu8i
 Resolving www.dropbox.com (www.dropbox.com)... 162.125.1.18, 2620:100:6016:18::a27d:112
 Connecting to www.dropbox.com (www.dropbox.com)|162.125.1.18|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: http://www.dropbox.com/e/scl/fi/pl0jwy9bu7953mpg41h2d/alldb.sql?rlkey=2juysx8rd0zos3bn69hmulu8i [following]
---2023-07-09 21:09:27--  http://www.dropbox.com/e/scl/fi/pl0jwy9bu7953mpg41h2d/alldb.sql?rlkey=2juysx8rd0zos3bn69hmulu8i
+Location: https://www.dropbox.com/e/scl/fi/pl0jwy9bu7953mpg41h2d/alldb.sql?rlkey=2juysx8rd0zos3bn69hmulu8i [following]
+--2023-07-09 21:09:27--  https://www.dropbox.com/e/scl/fi/pl0jwy9bu7953mpg41h2d/alldb.sql?rlkey=2juysx8rd0zos3bn69hmulu8i
 Reusing existing connection to www.dropbox.com:443.
 HTTP request sent, awaiting response... 302 Found
-Location: http://ucc1b57bddf6e0433864d3cc5232.dl.dropboxusercontent.com/cd/0/get/B_iKctyw3ciea6nWPKMAu_35rV3xgV8Q9_XChdL_2vZJcg1UI5HtMB-MsVZr1IW67V0363DdgAjf9Y1vMW_4BkZVFFOFC2ddpypSDiDc2ZGYjMI_ePxJNZ8RwPjZJe3RN14HcSQ5yRLNh3-ab4-qZlZV5ONUBSVPab6bd5CJafKq3bq8pavDmBFP7kvbf3181fA/file# [following]
---2023-07-09 21:09:28--  http://ucc1b57bddf6e0433864d3cc5232.dl.dropboxusercontent.com/cd/0/get/B_iKctyw3ciea6nWPKMAu_35rV3xgV8Q9_XChdL_2vZJcg1UI5HtMB-MsVZr1IW67V0363DdgAjf9Y1vMW_4BkZVFFOFC2ddpypSDiDc2ZGYjMI_ePxJNZ8RwPjZJe3RN14HcSQ5yRLNh3-ab4-qZlZV5ONUBSVPab6bd5CJafKq3bq8pavDmBFP7kvbf3181fA/file
+Location: https://ucc1b57bddf6e0433864d3cc5232.dl.dropboxusercontent.com/cd/0/get/B_iKctyw3ciea6nWPKMAu_35rV3xgV8Q9_XChdL_2vZJcg1UI5HtMB-MsVZr1IW67V0363DdgAjf9Y1vMW_4BkZVFFOFC2ddpypSDiDc2ZGYjMI_ePxJNZ8RwPjZJe3RN14HcSQ5yRLNh3-ab4-qZlZV5ONUBSVPab6bd5CJafKq3bq8pavDmBFP7kvbf3181fA/file# [following]
+--2023-07-09 21:09:28--  https://ucc1b57bddf6e0433864d3cc5232.dl.dropboxusercontent.com/cd/0/get/B_iKctyw3ciea6nWPKMAu_35rV3xgV8Q9_XChdL_2vZJcg1UI5HtMB-MsVZr1IW67V0363DdgAjf9Y1vMW_4BkZVFFOFC2ddpypSDiDc2ZGYjMI_ePxJNZ8RwPjZJe3RN14HcSQ5yRLNh3-ab4-qZlZV5ONUBSVPab6bd5CJafKq3bq8pavDmBFP7kvbf3181fA/file
 Resolving ucc1b57bddf6e0433864d3cc5232.dl.dropboxusercontent.com (ucc1b57bddf6e0433864d3cc5232.dl.dropboxusercontent.com)... 162.125.1.15, 2620:100:6016:15::a27d:10f
 Connecting to ucc1b57bddf6e0433864d3cc5232.dl.dropboxusercontent.com (ucc1b57bddf6e0433864d3cc5232.dl.dropboxusercontent.com)|162.125.1.15|:443... connected.
 HTTP request sent, awaiting response... 200 OK

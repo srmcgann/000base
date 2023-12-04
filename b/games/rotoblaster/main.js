@@ -23,7 +23,7 @@
 
   function getHighScores(){
     let request = makeHttpObject();
-    request.open("GET", "http://rotoblaster.tk/scores.php", true);
+    request.open("GET", "https://rotoblaster.tk/scores.php", true);
     request.send(null);
     request.onreadystatechange = function() {
       if (request.readyState == 4) highScores=JSON.parse(request.responseText);
@@ -32,7 +32,7 @@
 
   postHighScore=()=>{
     let request = request2 = makeHttpObject();
-    request.open("GET", "http://rotoblaster.tk/scores.php", true);
+    request.open("GET", "https://rotoblaster.tk/scores.php", true);
     request.send(null);
     request.onreadystatechange = function() {
       if (request.readyState == 4){
@@ -363,13 +363,13 @@
           }
           let name = prompt("You scored in the top 10!\n\nEnter your name...", d);
           if (name != null || name != "") {
-            request2.open("GET", "http://rotoblaster.tk/scores.php", true);
+            request2.open("GET", "https://rotoblaster.tk/scores.php", true);
             request2.send(null);
             request2.onreadystatechange = function() {
             if (request2.readyState == 4){
                 highScores=JSON.parse(request2.responseText);
                 let xhttp = makeHttpObject()
-                xhttp.open("POST", "http://rotoblaster.tk/update.php", true);
+                xhttp.open("POST", "https://rotoblaster.tk/update.php", true);
                 xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
                 LHS=[{name:name,score:score}];
                 xhttp.send(`n=${name}&s=${score}&v=${highScores[highScores.length-1].t}`);

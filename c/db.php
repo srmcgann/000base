@@ -24,12 +24,12 @@
   $db       = "id21284549_videodemos2";
   $port     = '3306';
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
-  $baseURL  = "http://efx.cantelope.org/c";
+  $baseURL  = "https://efx.cantelope.org/c";
   
 
   $maxResultsPerPage = 4;
   $demoSandbox='code.cantelope.org/sandbox';
-  $baseAssetsURL = 'http://assets.cantelope.org';
+  $baseAssetsURL = 'https://assets.cantelope.org';
   $baseURL = 'efx.cantelope.org/c';
   $baseFullURL= $baseURL;
 ?>

@@ -33,11 +33,11 @@
   $db       = "id21553412_orbs3";
   $port     = '3306';
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
-  $baseURL  = "http://efx.cantelope.org/e";
+  $baseURL  = "https://efx.cantelope.org/e";
   
 
   $maxResultsPerPage = 4;
-  $baseAssetsURL = 'http://efx.cantelope.org/e/audio';
+  $baseAssetsURL = 'https://efx.cantelope.org/e/audio';
   $baseFullURL= $baseURL;
   $page = 0;
 ?>

@@ -474,7 +474,7 @@ define('linkify', ['exports'], function (exports) {
 	/**
  	Represents a web URL protocol. Supported types include
  
- 	* `http:`
+ 	* `https:`
  	* `https:`
  	* `ftp:`
  	* `ftps:`
@@ -952,8 +952,8 @@ define('linkify', ['exports'], function (exports) {
  	for a little URL-finding utility abstract syntax trees may be a little
  	overkill).
  
- 	URL format: http://en.wikipedia.org/wiki/URI_scheme
- 	Email format: http://en.wikipedia.org/wiki/Email_address (links to RFC in
+ 	URL format: https://en.wikipedia.org/wiki/URI_scheme
+ 	Email format: https://en.wikipedia.org/wiki/Email_address (links to RFC in
  	reference)
  
  	@module linkify
@@ -970,10 +970,10 @@ define('linkify', ['exports'], function (exports) {
 
 	// Intermediate states for URLs. Note that domains that begin with a protocol
 	// are treated slighly differently from those that don't.
-	var S_PROTOCOL = makeState$1(); // e.g., 'http:'
+	var S_PROTOCOL = makeState$1(); // e.g., 'https:'
 	var S_MAILTO$1 = makeState$1(); // 'mailto:'
-	var S_PROTOCOL_SLASH = makeState$1(); // e.g., '/', 'http:/''
-	var S_PROTOCOL_SLASH_SLASH = makeState$1(); // e.g., '//', 'http://'
+	var S_PROTOCOL_SLASH = makeState$1(); // e.g., '/', 'https:/''
+	var S_PROTOCOL_SLASH_SLASH = makeState$1(); // e.g., '//', 'https://'
 	var S_DOMAIN$1 = makeState$1(); // parsed string ends with a potential domain name (A)
 	var S_DOMAIN_DOT = makeState$1(); // (A) domain followed by DOT
 	var S_TLD = makeState$1(URL); // (A) Simplest possible URL with no query string

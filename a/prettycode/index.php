@@ -5,7 +5,7 @@
 <html>
   <head>
     <style>
-      @import url('http://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
       html, body{
         width: 100%;
         min-height: 100vh;
@@ -202,7 +202,7 @@
             <div class="header">
               <div class="headerItem">
                 <?php echo 'demo title: <span class="demoTitle">'.$row['title'].'</span>'?>
-		<a href="<?php echo 'http://efx.cantelope.org/?i=/d/'.$slug?>"
+		<a href="<?php echo 'https://efx.cantelope.org/?i=/d/'.$slug?>"
  target="_blank">demo link</a>
               </div>
             </div>

@@ -4,8 +4,8 @@
           for($i=3;$i--;)array_shift($params);
         }
         if ($params[0] === 'a') {
-          ?> <meta property=og:image content="http://<?=$baseDomain?>/thumbs/<?=$params[1]?>.png"><meta property=og:title content="demo #<?=$params[1]?>"> <?php
+          ?> <meta property=og:image content="https://<?=$baseDomain?>/thumbs/<?=$params[1]?>.png"><meta property=og:title content="demo #<?=$params[1]?>"> <?php
         } else {
-          ?> <meta property=og:image content="http://<?=$baseDomain?>/codegolf_logo.png"><meta property=og:title content="CODEGOLF.TK, where the demoscene lives on!"> <?php
+          ?> <meta property=og:image content="https://<?=$baseDomain?>/codegolf_logo.png"><meta property=og:title content="CODEGOLF.TK, where the demoscene lives on!"> <?php
         }
       ?> <link href=css/app.7a1b649a.css rel=preload as=style><link href=js/app.894156aa.js rel=preload as=script><link href=js/chunk-vendors.84d7af2a.js rel=preload as=script><link href=css/app.7a1b649a.css rel=stylesheet></head><body><noscript><strong>We're sorry but codegolf doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.84d7af2a.js></script><script src=js/app.894156aa.js></script><script>console.log('<?php echo json_encode($params);?>')</script></body></html>

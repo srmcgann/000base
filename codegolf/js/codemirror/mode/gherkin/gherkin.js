@@ -2,7 +2,7 @@
 // Distributed under an MIT license: https://codemirror.net/LICENSE
 
 /*
-Gherkin mode - http://www.cukes.info/
+Gherkin mode - https://www.cukes.info/
 Report bugs/issues here: https://github.com/codemirror/CodeMirror/issues
 */
 

@@ -15,7 +15,7 @@
 "use strict";
 
 CodeMirror.defineMode("perl",function(){
-        // http://perldoc.perl.org
+        // https://perldoc.perl.org
         var PERL={                                      //   null - magic touch
                                                         //   1 - keyword
                                                         //   2 - def

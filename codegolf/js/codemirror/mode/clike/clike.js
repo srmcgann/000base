@@ -282,7 +282,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
   // Returns true if identifier is a "C" type.
   // C type is defined as those that are reserved by the compiler (basicTypes),
   // and those that end in _t (Reserved by POSIX for types)
-  // http://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html
+  // https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html
   function cTypes(identifier) {
     return contains(basicCTypes, identifier) || /.+_t/.test(identifier);
   }

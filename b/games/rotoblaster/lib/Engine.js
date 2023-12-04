@@ -344,7 +344,7 @@ ram =             new Uint8Array(WIDTH * HEIGHT * PAGES);
     //I don't pretend to know how this works exactly; I know it uses barycentric coordinates.
     //Might replace with simpler line-sweep; haven't perf tested yet.
     var canvasWidth = WIDTH;
-    // http://devmaster.net/forums/topic/1145-advanced-rasterization/
+    // https://devmaster.net/forums/topic/1145-advanced-rasterization/
     // 28.4 fixed-point coordinates
     var x1 = Math.round( 16 * x1 );
     var x2 = Math.round( 16 * x2 );

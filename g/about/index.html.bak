@@ -64,24 +64,24 @@
         <br><br>
         <div class="sectionTitle">Examples</div>
         The following examples are all valid.<br><br>
-        <b>.wavey http://i.imgur.com/lM1ZA.jpg</b><br>
-        <b>.scanlines http://i.imgur.com/lM1ZA.jpg</b><br>
-        <b>.twirl http://i.imgur.com/lM1ZA.jpg</b><br>
-        <b>.matrix http://i.imgur.com/lM1ZA.jpg</b><br>
-        <b>.vignette http://i.imgur.com/lM1ZA.jpg</b><br><br><br>
+        <b>.wavey https://i.imgur.com/lM1ZA.jpg</b><br>
+        <b>.scanlines https://i.imgur.com/lM1ZA.jpg</b><br>
+        <b>.twirl https://i.imgur.com/lM1ZA.jpg</b><br>
+        <b>.matrix https://i.imgur.com/lM1ZA.jpg</b><br>
+        <b>.vignette https://i.imgur.com/lM1ZA.jpg</b><br><br><br>
         <div class="sectionTitle">Mixing Commands</div>
         the commands can be mixed and matched like so<br><br>
-        <b>.wavey http://i.imgur.com/lM1ZA.jpg?scanlines</b><br>
-        <b>.vignette http://i.imgur.com/lM1ZA.jpg?wavey</b><br>
-        <b>.matrix http://i.imgur.com/lM1ZA.jpg?vignette&wavey</b><br><br><br>
+        <b>.wavey https://i.imgur.com/lM1ZA.jpg?scanlines</b><br>
+        <b>.vignette https://i.imgur.com/lM1ZA.jpg?wavey</b><br>
+        <b>.matrix https://i.imgur.com/lM1ZA.jpg?vignette&wavey</b><br><br><br>
         <div class="sectionTitle">the .efx command</div>
         additionally, the general-purpose .efx command will invoke any or all of the parameters<br><br>
-        <b>.efx http://i.imgur.com/lM1ZA.jpg?matrix&vignette&wavey</b><br><br><br>
+        <b>.efx https://i.imgur.com/lM1ZA.jpg?matrix&vignette&wavey</b><br><br><br>
         note<br><b>scanlines</b> does nothing in combination with <b>matrix</b><br><br><br>
         <div class="sectionTitle">Controlling Intensities</div>
         Intensities can be controlled by including a value for any effect. This changes the intensity for that particular effect. Valid ranges are 0-1 but other values can be experimented with.<br><br>
-        <b>.efx http://i.imgur.com/lM1ZA.jpg?vignette=0.85</b><br>
-        <b>.twirl http://i.imgur.com/lM1ZA.jpg?scanlines=0.25</b><br>
+        <b>.efx https://i.imgur.com/lM1ZA.jpg?vignette=0.85</b><br>
+        <b>.twirl https://i.imgur.com/lM1ZA.jpg?scanlines=0.25</b><br>
       </div>
     </div>
     <script>

@@ -30,12 +30,12 @@
   //$db       = "id21553412_orbs3";
   $db       = "id21284549_videodemos2";
   $port     = '3306';
-  $baseURL  = "http://efx.cantelope.org/a";
+  $baseURL  = "https://efx.cantelope.org/a";
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
   
 
   $maxResultsPerPage = 4;
   $demoSandbox='efx.cantelope.org/a/sandbox';
-  $baseAssetsURL = 'http://assets.cantelope.org';
+  $baseAssetsURL = 'https://assets.cantelope.org';
   $baseFullURL= $baseURL;
 ?>

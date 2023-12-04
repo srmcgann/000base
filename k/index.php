@@ -1,5 +1,5 @@
 <?php 
-  $url = (isset($_GET['i']) && $_GET['i'] && strlen($_GET['i']) > 5) ? str_replace('http:///', 'http://', $_GET['i']) : 'http://jsbot.cantelope.org/uploads/1cUypu.mp4';
+  $url = (isset($_GET['i']) && $_GET['i'] && strlen($_GET['i']) > 5) ? str_replace('https:///', 'https://', $_GET['i']) : 'https://jsbot.cantelope.org/uploads/1cUypu.mp4';
   if(strpos($url, 'https:/') !== false && strpos($url, 'https://') === false){
     $url = str_replace('https:/', 'https://', $url);
   }

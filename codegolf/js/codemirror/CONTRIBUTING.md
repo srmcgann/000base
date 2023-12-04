@@ -7,17 +7,17 @@
 ## Getting help
 
 Community discussion, questions, and informal bug reporting is done on the
-[discuss.CodeMirror forum](http://discuss.codemirror.net).
+[discuss.CodeMirror forum](https://discuss.codemirror.net).
 
 ## Submitting bug reports
 
 The preferred way to report bugs is to use the
-[GitHub issue tracker](http://github.com/codemirror/CodeMirror/issues). Before
+[GitHub issue tracker](https://github.com/codemirror/CodeMirror/issues). Before
 reporting a bug, read these pointers.
 
 **Note:** The issue tracker is for *bugs*, not requests for help. Questions
 should be asked on the
-[discuss.CodeMirror forum](http://discuss.codemirror.net) instead.
+[discuss.CodeMirror forum](https://discuss.codemirror.net) instead.
 
 ### Reporting bugs effectively
 
@@ -42,7 +42,7 @@ should be asked on the
 - If the problem can not be reproduced in any of the demos included in the
   CodeMirror distribution, please provide an HTML document that demonstrates
   the problem. The best way to do this is to go to
-  [jsbin.com](http://jsbin.com/ihunin/edit), enter it there, press save, and
+  [jsbin.com](https://jsbin.com/ihunin/edit), enter it there, press save, and
   include the resulting link in your bug report.
 
 ## Contributing code

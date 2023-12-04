@@ -294,7 +294,7 @@ Fixed a number of issues with drawing right-to-left selections and mouse selecti
 
 [search addon](https://codemirror.net/demo/search/): Fix crash when restarting search after doing empty search.
 
-[mark-selection addon](http://cm/doc/manual.html#addon_mark-selection): Fix off-by-one bug.
+[mark-selection addon](https://cm/doc/manual.html#addon_mark-selection): Fix off-by-one bug.
 
 [tern addon](https://codemirror.net/demo/tern.html): Fix bad request made when editing at the bottom of a large document.
 
@@ -915,7 +915,7 @@ Fix a [bug](https://github.com/codemirror/CodeMirror/issues/3834) that caused ph
 ## 5.7.0 (2015-09-21)
 
 * New modes: [Vue](https://codemirror.net/mode/vue/index.html), [Oz](https://codemirror.net/mode/oz/index.html), [MscGen](https://codemirror.net/mode/mscgen/index.html) (and dialects), [Closure Stylesheets](https://codemirror.net/mode/css/gss.html)
-* Implement [CommonMark](http://commonmark.org)-style flexible list indent and cross-line code spans in [Markdown](https://codemirror.net/mode/markdown/index.html) mode
+* Implement [CommonMark](https://commonmark.org)-style flexible list indent and cross-line code spans in [Markdown](https://codemirror.net/mode/markdown/index.html) mode
 * Add a replace-all button to the [search addon](https://codemirror.net/doc/manual.html#addon_search), and make the persistent search dialog transparent when it obscures the match
 * Handle `acync`/`await` and ocal and binary numbers in [JavaScript mode](https://codemirror.net/mode/javascript/index.html)
 * Fix various issues with the [Haxe mode](https://codemirror.net/mode/haxe/index.html)
@@ -931,7 +931,7 @@ Fix a [bug](https://github.com/codemirror/CodeMirror/issues/3834) that caused ph
 * The editor and theme CSS was cleaned up. Some selectors are now less specific than before
 * New theme: [abcdef](https://codemirror.net/demo/theme.html#abcdef)
 * Lines longer than [`maxHighlightLength`](https://codemirror.net/doc/manual.html#option_maxHighlightLength) are now less likely to mess up indentation
-* New addons: [`autorefresh`](https://codemirror.net/doc/manual.html#addon_autorefresh) for refreshing an editor the first time it becomes visible, and `html-lint` for using [HTMLHint](http://htmlhint.com/)
+* New addons: [`autorefresh`](https://codemirror.net/doc/manual.html#addon_autorefresh) for refreshing an editor the first time it becomes visible, and `html-lint` for using [HTMLHint](https://htmlhint.com/)
 * The [`search`](https://codemirror.net/doc/manual.html#addon_search) addon now recognizes `\r` and `\n` in pattern and replacement input
 
 ## 5.5.0 (2015-07-20)
@@ -1519,4 +1519,4 @@ Add a [theme](https://codemirror.net/doc/manual.html#option_theme) system ([demo
 
 ## 2.0.0 (2011-03-28)
 
-CodeMirror 2 is a complete rewrite that's faster, smaller, simpler to use, and less dependent on browser quirks. See [this](https://codemirror.net/doc/internals.html) and [this](http://groups.google.com/group/codemirror/browse_thread/thread/5a8e894024a9f580) for more information.
+CodeMirror 2 is a complete rewrite that's faster, smaller, simpler to use, and less dependent on browser quirks. See [this](https://codemirror.net/doc/internals.html) and [this](https://groups.google.com/group/codemirror/browse_thread/thread/5a8e894024a9f580) for more information.

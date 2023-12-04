@@ -3,7 +3,7 @@
 
 // mode(s) for the sequence chart dsl's mscgen, xù and msgenny
 // For more information on mscgen, see the site of the original author:
-// http://www.mcternan.me.uk/mscgen
+// https://www.mcternan.me.uk/mscgen
 //
 // This mode for mscgen and the two derivative languages were
 // originally made for use in the mscgen_js interpreter

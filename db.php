@@ -16,5 +16,5 @@
   //$db       = "id21583283_orbs4";
   $port     = '3306';
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
-  $baseURL  = "http://efx.cantelope.org/Δ";
+  $baseURL  = "https://efx.cantelope.org/Δ";
 ?>

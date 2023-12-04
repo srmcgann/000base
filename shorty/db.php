@@ -15,5 +15,5 @@
   $db       = "id21284549_videodemos2";
   $port     = '3306';
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
-  //$baseURL  = "http://orbs.cantelope.org/Δ";
+  //$baseURL  = "https://orbs.cantelope.org/Δ";
 ?>

@@ -41,7 +41,7 @@
   } else {
     $image = 'https://srmcgann.github.io/assets/1GY3GM.png';
   }
-  $url =  (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https:" : "http:") . "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+  $url =  (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https:" : "https:") . "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
   $url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
   $type = 'website';
   $description = 'games.dweet.net - a free blog';

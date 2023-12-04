@@ -6,10 +6,10 @@
   $local = true;
   if($local){
     $baseURL='local.efx.cantelope.org';
-    $baseAssetsURL = 'http://local.assets.cantelope.org';
+    $baseAssetsURL = 'https://local.assets.cantelope.org';
   }else{
     $baseURL='efx.cantelope.org';
-    $baseAssetsURL = 'http://assets.cantelope.org';
+    $baseAssetsURL = 'https://assets.cantelope.org';
   }
   
   $req = ltrim($_SERVER['REQUEST_URI'],'/');
@@ -38,6 +38,6 @@
   $db       = "id21284549_videodemos2";
   $port     = '3306';
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
-  $baseURL  = "http://efx.cantelope.org/b";
-  $baseFullURL= ($local ? 'http://' : 'http://') . $baseURL;
+  $baseURL  = "https://efx.cantelope.org/b";
+  $baseFullURL= ($local ? 'https://' : 'https://') . $baseURL;
 ?>

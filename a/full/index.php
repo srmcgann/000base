@@ -33,7 +33,7 @@
         if($res2){
           $favicon = $row2['avatar'];
         } else {
-          $favicon = 'http://jsbot.cantelope.org/1HVS37.png';
+          $favicon = 'https://jsbot.cantelope.org/1HVS37.png';
         }
       } else {
         echo '404';

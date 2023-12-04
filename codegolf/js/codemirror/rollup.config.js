@@ -10,7 +10,7 @@ export default {
 // implemented in JavaScript on top of the browser's DOM.
 //
 // You can find some technical background for some of the code below
-// at http://marijnhaverbeke.nl/blog/#cm-internals .
+// at https://marijnhaverbeke.nl/blog/#cm-internals .
 `,
     format: "umd",
     file: "lib/codemirror.js",

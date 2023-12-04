@@ -2,17 +2,17 @@
 <html>
   <head>
     <meta name="viewport" content="width=720">
-    <meta property="og:url" content="http://efx.cantelope.org/about"/>
+    <meta property="og:url" content="https://efx.cantelope.org/about"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="about whitehot robot"/>
     <meta property="og:description" content="about whitehot robot"/>
-    <meta property="og:image" content="http://srmcgann.github.io/assets/1GY3GM.png"/>
-    <meta property="og:image:secure_url" content="http://srmcgann.github.io/assets/1GY3GM.png"/>
-    <link rel="icon" href="http://srmcgann.github.io/assets/tBgps.png">
+    <meta property="og:image" content="https://srmcgann.github.io/assets/1GY3GM.png"/>
+    <meta property="og:image:secure_url" content="https://srmcgann.github.io/assets/1GY3GM.png"/>
+    <link rel="icon" href="https://srmcgann.github.io/assets/tBgps.png">
 
     <style>
       
-      @import url('http://fonts.googleapis.com/css2?family=Play&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
       body, html{
         width: 100%;
         min-height: 100%;
@@ -88,7 +88,7 @@
         text-align: left;
       }
       .logo{
-        background-image: url(http://srmcgann.github.io/assets/1GY3GM.png);
+        background-image: url(https://srmcgann.github.io/assets/1GY3GM.png);
         background-size: 70px 70px;
         background-position: center center;
         background-repeat: no-repeat;
@@ -107,18 +107,18 @@
         <div class="logo"></div>
         about whitehot robot
         <div class="smallertext"><br>
-          whitehot robot is an umbrella moniker for the band, art, and suite of free online tools (listed below), which are made by and for artists, with emphasis on music, computer graphics, and literature. This project has grown, beginning in 2015 as small collection of audio tracks on youtube, into a <a href="http://github.com/srmcgann/whitehotrobot.com" target="_blank">repository</a> of public domain artwork, music, and social platforms for artists to share and demo their work.
+          whitehot robot is an umbrella moniker for the band, art, and suite of free online tools (listed below), which are made by and for artists, with emphasis on music, computer graphics, and literature. This project has grown, beginning in 2015 as small collection of audio tracks on youtube, into a <a href="https://github.com/srmcgann/whitehotrobot.com" target="_blank">repository</a> of public domain artwork, music, and social platforms for artists to share and demo their work.
           <br><br>
           Registration is free and all contributions are understood to be available for free download, modification, reproduction and possible inclusion in projects at any user's discretion - on the condition that the spirit of art development remain at the heart of every derivative of artwork submitted here AND that the net effect of any artwork or its derivative is deemed by the community and the administrators (of whitehot robot) to be reasonably positive and healthy to the community as a whole. Obscene, profane, or otherwise inappropriate work may be removed at the administrator's discretion, however this project's primary mission is to always exemplify extreme tolerance and foster artistic open-mindedness, so the removal of any music or artwork will never be done lightly - per this mission statement.<br><br>click the links below to explore...<br><br>
         
         <div class="linkbox">
-          <!-- <a href="http://whitehotrobot.com" target="_blank">jukebox (playlists & compiled videos)</a><br> -->
-          <a href="http://efx.cantelope.org" target="_blank">demos / code with videos</a><br>
-          <a href="http://audiocloud.cantelope.org" target="_blank">audiocloud (music library)</a><br>
-          <a href="http://games.cantelope.org" target="_blank">free browser games by the user-community</a><br>
-          <!-- <a href="http://email.whitehotrobot.com" target="_blank">free email - communication for the masses!</a><br> -->
-          <!-- <a href="http://hosting.whitehotrobot.com" target="_blank">static page hosting with code playground</a><br> -->
-          <a href="http://words.whitehotrobot.com" target="_blank">blog / literature</a><br>
+          <!-- <a href="https://whitehotrobot.com" target="_blank">jukebox (playlists & compiled videos)</a><br> -->
+          <a href="https://efx.cantelope.org" target="_blank">demos / code with videos</a><br>
+          <a href="https://audiocloud.cantelope.org" target="_blank">audiocloud (music library)</a><br>
+          <a href="https://games.cantelope.org" target="_blank">free browser games by the user-community</a><br>
+          <!-- <a href="https://email.whitehotrobot.com" target="_blank">free email - communication for the masses!</a><br> -->
+          <!-- <a href="https://hosting.whitehotrobot.com" target="_blank">static page hosting with code playground</a><br> -->
+          <a href="https://words.whitehotrobot.com" target="_blank">blog / literature</a><br>
         </div>
         </div>
       </div>
@@ -148,7 +148,7 @@
         bgimg.addEventListener('load',()=>{
           go=true
         })
-        bgimg.src = 'http://srmcgann.github.io/assets/5wvV7.jpg'
+        bgimg.src = 'https://srmcgann.github.io/assets/5wvV7.jpg'
       }
       
       oX=oY=0,oZ=180,pX=0,pY=0,pZ=0,O=8

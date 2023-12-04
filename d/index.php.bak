@@ -38,7 +38,7 @@
 				window.addEventListener("message", receiveMessage, false);
 				function receiveMessage(event){
 					var origin = event.origin || event.originalEvent.origin;
-					if (origin !== "<?php echo $baseURL?>" && origin !== "<?php echo $legacyURL?>" && origin !== 'http://irccom.tk' && origin !== 'http://codegolf.tk' && origin !== 'http://codegolf.tk') return;
+					if (origin !== "<?php echo $baseURL?>" && origin !== "<?php echo $legacyURL?>" && origin !== 'https://irccom.tk' && origin !== 'https://codegolf.tk' && origin !== 'https://codegolf.tk') return;
 					message=event.data;
 					var command=message.split(':')[0];
 					webgl=message.split(':')[1];

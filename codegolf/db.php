@@ -18,6 +18,6 @@
 
 	$baseDomain="efx.cantelope.org";
 	$appletDomain="efx.cantelope.org";
-	$baseURL="http://$baseDomain/codegolf";
-	$appletURL="http://$appletDomain/applet";
+	$baseURL="https://$baseDomain/codegolf";
+	$appletURL="https://$appletDomain/applet";
 ?>

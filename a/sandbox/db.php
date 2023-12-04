@@ -35,7 +35,7 @@
 
   $maxResultsPerPage = 4;
   $demoSandbox='efx.cantelope.org/sandbox';
-  $baseAssetsURL = 'http://assets.cantelope.org';
+  $baseAssetsURL = 'https://assets.cantelope.org';
   $baseURL = 'efx.cantelope.org';
   $baseFullURL= $baseURL;
 ?>

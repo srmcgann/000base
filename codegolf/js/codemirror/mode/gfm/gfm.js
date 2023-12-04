@@ -100,7 +100,7 @@ CodeMirror.defineMode("gfm", function(config, modeConfig) {
           stream.string.slice(stream.start - 2, stream.start) != "](" &&
           (stream.start == 0 || /\W/.test(stream.string.charAt(stream.start - 1)))) {
         // URLs
-        // Taken from http://daringfireball.net/2010/07/improved_regex_for_matching_urls
+        // Taken from https://daringfireball.net/2010/07/improved_regex_for_matching_urls
         // And then (issue #1160) simplified to make it not crash the Chrome Regexp engine
         // And then limited url schemes to the CommonMark list, so foo:bar isn't matched as a URL
         state.combineTokens = true;
